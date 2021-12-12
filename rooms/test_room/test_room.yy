@@ -23,6 +23,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"loop_button_obj","path":"objects/loop_button_obj/loop_button_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":216.0,"y":0.0,"resourceVersion":"1.0","name":"inst_524D4DB7","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"wave_counter_obj","path":"objects/wave_counter_obj/wave_counter_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":0.0,"resourceVersion":"1.0","name":"inst_8239937","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"gold_counter_obj","path":"objects/gold_counter_obj/gold_counter_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":208.0,"y":8.0,"resourceVersion":"1.0","name":"inst_396589B9","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"tower_store_obj","path":"objects/tower_store_obj/tower_store_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":208.0,"y":16.0,"resourceVersion":"1.0","name":"inst_1265D6DA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"ground_tiles","path":"tilesets/ground_tiles/ground_tiles.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":32,"SerialiseHeight":18,"TileSerialiseData":[
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,0,0,0,0,0,0,
@@ -58,6 +59,7 @@
     {"name":"inst_524D4DB7","path":"rooms/test_room/test_room.yy",},
     {"name":"inst_8239937","path":"rooms/test_room/test_room.yy",},
     {"name":"inst_396589B9","path":"rooms/test_room/test_room.yy",},
+    {"name":"inst_1265D6DA","path":"rooms/test_room/test_room.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

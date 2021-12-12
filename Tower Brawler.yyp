@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"tower_spr","path":"sprites/tower_spr/tower_spr.yy",},"order":4,},
     {"id":{"name":"play_button_obj","path":"objects/play_button_obj/play_button_obj.yy",},"order":10,},
+    {"id":{"name":"highlight_shader","path":"shaders/highlight_shader/highlight_shader.yy",},"order":0,},
     {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},"order":0,},
     {"id":{"name":"test_path","path":"paths/test_path/test_path.yy",},"order":0,},
     {"id":{"name":"targeting","path":"scripts/targeting/targeting.yy",},"order":2,},
@@ -9,6 +10,7 @@
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":4,},
     {"id":{"name":"enemy_obj","path":"objects/enemy_obj/enemy_obj.yy",},"order":4,},
     {"id":{"name":"maths","path":"scripts/maths/maths.yy",},"order":1,},
+    {"id":{"name":"tower_store_obj","path":"objects/tower_store_obj/tower_store_obj.yy",},"order":14,},
     {"id":{"name":"wave_counter_obj","path":"objects/wave_counter_obj/wave_counter_obj.yy",},"order":12,},
     {"id":{"name":"tower2_obj","path":"objects/tower2_obj/tower2_obj.yy",},"order":6,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":3,},
@@ -22,6 +24,7 @@
     {"id":{"name":"tower_menu_obj","path":"objects/tower_menu_obj/tower_menu_obj.yy",},"order":9,},
     {"id":{"name":"gold_counter_spr","path":"sprites/gold_counter_spr/gold_counter_spr.yy",},"order":10,},
     {"id":{"name":"player_bullet_base","path":"objects/player_bullet_base/player_bullet_base.yy",},"order":1,},
+    {"id":{"name":"tower_store_spr","path":"sprites/tower_store_spr/tower_store_spr.yy",},"order":11,},
     {"id":{"name":"loop_button_obj","path":"objects/loop_button_obj/loop_button_obj.yy",},"order":11,},
     {"id":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"order":3,},
     {"id":{"name":"enemy_spr","path":"sprites/enemy_spr/enemy_spr.yy",},"order":3,},
