@@ -38,3 +38,8 @@ function create_info_panel( panel_x,panel_y,data )
 	
 	return( panel )
 }
+
+function snap_loc( loc,snap )
+{
+	return( loc - ( loc % snap ) + snap / 2 )
+}
