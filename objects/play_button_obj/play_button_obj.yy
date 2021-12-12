@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "button_base",
+    "path": "objects/button_base/button_base.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
