@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "projectiles",
+  "name": "info_panel_scr",
   "tags": [],
   "resourceType": "GMScript",
 }

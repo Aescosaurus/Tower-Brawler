@@ -22,7 +22,10 @@ if( set_data )
 		}
 		else if( cur_data_type == "number" )
 		{
-			draw_sprite( cur_data,0,x + cur_x + tile_spacing / 2,y + cur_y + tile_spacing / 2 )
+			var x_offset = sprite_get_xoffset( cur_data )
+			var y_offset = sprite_get_yoffset( cur_data )
+			draw_sprite( cur_data,0,x + x_offset + cur_x,
+				y + y_offset + cur_y )
 			cur_x += sprite_get_width( cur_data )
 		}
 	}
