@@ -1,0 +1,1 @@
+panel = create_info_panel( wave_counter_obj )

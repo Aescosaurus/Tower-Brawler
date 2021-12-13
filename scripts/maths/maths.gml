@@ -24,3 +24,8 @@ function normalize( x_diff,y_diff )
 	
 	return( norm )
 }
+
+function snap_loc( loc,snap )
+{
+	return( loc - ( loc % snap ) + snap / 2 )
+}
