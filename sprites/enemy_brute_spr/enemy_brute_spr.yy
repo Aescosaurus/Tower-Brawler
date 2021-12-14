@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"47595026-22b3-4cb3-b588-63c6fb6a3c79","path":"sprites/tower2_spr/tower2_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"47595026-22b3-4cb3-b588-63c6fb6a3c79","path":"sprites/tower2_spr/tower2_spr.yy",},"LayerId":{"name":"8af51cad-26f7-4ba2-aa23-c352e331fefa","path":"sprites/tower2_spr/tower2_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tower2_spr","path":"sprites/tower2_spr/tower2_spr.yy",},"resourceVersion":"1.0","name":"47595026-22b3-4cb3-b588-63c6fb6a3c79","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7fd989b6-fc9a-427f-8d3e-d77c3f9fc5f2","path":"sprites/enemy_brute_spr/enemy_brute_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7fd989b6-fc9a-427f-8d3e-d77c3f9fc5f2","path":"sprites/enemy_brute_spr/enemy_brute_spr.yy",},"LayerId":{"name":"1b1059ae-228a-4cc8-bf23-7c6f0b5af422","path":"sprites/enemy_brute_spr/enemy_brute_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"enemy_brute_spr","path":"sprites/enemy_brute_spr/enemy_brute_spr.yy",},"resourceVersion":"1.0","name":"7fd989b6-fc9a-427f-8d3e-d77c3f9fc5f2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"tower2_spr","path":"sprites/tower2_spr/tower2_spr.yy",},
+    "spriteId": {"name":"enemy_brute_spr","path":"sprites/enemy_brute_spr/enemy_brute_spr.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ab26a536-afd5-41bd-8fe9-2d4def400112","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47595026-22b3-4cb3-b588-63c6fb6a3c79","path":"sprites/tower2_spr/tower2_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e449793c-d5fc-42dc-a57d-6a4e8f6858a5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7fd989b6-fc9a-427f-8d3e-d77c3f9fc5f2","path":"sprites/enemy_brute_spr/enemy_brute_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"tower2_spr","path":"sprites/tower2_spr/tower2_spr.yy",},
+    "parent": {"name":"enemy_brute_spr","path":"sprites/enemy_brute_spr/enemy_brute_spr.yy",},
     "resourceVersion": "1.3",
-    "name": "tower2_spr",
+    "name": "enemy_brute_spr",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8af51cad-26f7-4ba2-aa23-c352e331fefa","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b1059ae-228a-4cc8-bf23-7c6f0b5af422","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "towers",
-    "path": "folders/Sprites/towers.yy",
+    "name": "enemies",
+    "path": "folders/Sprites/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tower2_spr",
+  "name": "enemy_brute_spr",
   "tags": [],
   "resourceType": "GMSprite",
 }
