@@ -18,7 +18,7 @@ function create_info_panel_raw( arr )
 function create_tower_panel( tower,desc )
 {
 	return( create_arr(
-		object_get_sprite( tower ),get_tower_name( tower ),"\n",
+		object_get_sprite( tower ),tower_get_name( tower ),"\n",
 		desc,"\n",
-		"cost:",gold_counter_spr,string( get_tower_cost( tower ) ) ) )
+		"cost:",gold_counter_spr,string( tower_get_cost( tower ) ) ) )
 }

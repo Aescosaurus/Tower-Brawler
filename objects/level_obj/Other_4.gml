@@ -1,3 +1,3 @@
 tilemap = layer_tilemap_get_id( "tilemap" )
 
-cur_gold = 0
+cur_gold = 20

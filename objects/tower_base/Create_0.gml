@@ -1,4 +1,4 @@
-range = 0
+range = tower_get_range( object_index )
 
 hovering = false
 

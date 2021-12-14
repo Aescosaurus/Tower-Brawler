@@ -46,11 +46,13 @@
     {"id":{"name":"tower_obj","path":"objects/tower_obj/tower_obj.yy",},"order":1,},
     {"id":{"name":"info_panel_obj","path":"objects/info_panel_obj/info_panel_obj.yy",},"order":8,},
     {"id":{"name":"start_button_obj","path":"objects/start_button_obj/start_button_obj.yy",},"order":9,},
+    {"id":{"name":"color_fade_shader","path":"shaders/color_fade_shader/color_fade_shader.yy",},"order":2,},
     {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},"order":0,},
     {"id":{"name":"player_bullet_obj","path":"objects/player_bullet_obj/player_bullet_obj.yy",},"order":3,},
     {"id":{"name":"player_bullet_spr","path":"sprites/player_bullet_spr/player_bullet_spr.yy",},"order":1,},
     {"id":{"name":"button_base","path":"objects/button_base/button_base.yy",},"order":0,},
     {"id":{"name":"tower_menu_spr","path":"sprites/tower_menu_spr/tower_menu_spr.yy",},"order":6,},
+    {"id":{"name":"grayed_out_shader","path":"shaders/grayed_out_shader/grayed_out_shader.yy",},"order":1,},
     {"id":{"name":"test_room","path":"rooms/test_room/test_room.yy",},"order":2,},
   ],
   "Options": [
