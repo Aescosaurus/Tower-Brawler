@@ -21,6 +21,7 @@
     {"id":{"name":"pixel_font","path":"fonts/pixel_font/pixel_font.yy",},"order":0,},
     {"id":{"name":"utils_scr","path":"scripts/utils_scr/utils_scr.yy",},"order":1,},
     {"id":{"name":"wave_counter_spr","path":"sprites/wave_counter_spr/wave_counter_spr.yy",},"order":3,},
+    {"id":{"name":"enemy_stats_obj","path":"objects/enemy_stats_obj/enemy_stats_obj.yy",},"order":5,},
     {"id":{"name":"start_button_spr","path":"sprites/start_button_spr/start_button_spr.yy",},"order":7,},
     {"id":{"name":"play_button_spr","path":"sprites/play_button_spr/play_button_spr.yy",},"order":1,},
     {"id":{"name":"gold_counter_obj","path":"objects/gold_counter_obj/gold_counter_obj.yy",},"order":6,},
