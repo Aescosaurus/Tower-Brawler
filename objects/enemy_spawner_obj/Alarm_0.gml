@@ -14,6 +14,7 @@ else
 	cur_wave += 1
 	cur_enemy_count = 0
 	
-	wave_size *= 1.5
+	// wave_size *= 1.5
+	wave_size += logn( wave_growth,cur_wave )
 	enemy_sep *= 0.8
 }
