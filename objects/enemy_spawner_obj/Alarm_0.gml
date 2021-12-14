@@ -13,6 +13,7 @@ else if( cur_squad < array_length( wave_get( cur_wave ) ) - 1 )
 	cur_squad += 1
 	
 	cur_squad_member_index = 0
+	squad_size = wave_squad_get( cur_wave,cur_squad ).quantity
 	
 	alarm_set( 0,wave_sep )
 }
@@ -25,6 +26,7 @@ else
 	// cur_enemy_count = 0
 	
 	cur_squad = 0
+	
 	cur_squad_member_index = 0
 	squad_size = wave_squad_get( cur_wave,cur_squad ).quantity
 	
