@@ -14,7 +14,7 @@ if( can_fire )
 	var target = get_target( x,y,targeting,range )
 	if( target != noone )
 	{
-		// create_bullet( x,y,point_direction( x,y,target.x,target.y ),player_bullet_obj )
+		create_bullet( x,y,point_direction( x,y,target.x,target.y ),player_bullet_obj )
 	}
 	
 	can_fire = false

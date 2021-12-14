@@ -1,16 +1,13 @@
 function create_bullet( bx,by,dir,type )
 {
-	var b = instance_create_layer( bx,by,"instances",type )
+	var b = instance_create_layer( bx,by,"projectiles",type )
 	
 	b.direction = dir
 	b.owner = self
 	
 	b.dmg = bullet_dmg
 	b.hp = bullet_pierce + 1
-	// b.speed = bullet_spd
-	b.speed = 1
-	
-	// todo: range
+	b.speed = bullet_spd
 	
 	return( b )
 }
