@@ -21,7 +21,7 @@ else
 	if( loop_button_obj.image_index == 1 ) next_wave = true
 	else play_button_obj.image_index = 0
 	
-	if( cur_wave < array_length( wave_handler_obj.enemy_waves ) ) cur_wave += 1
+	if( cur_wave < array_length( wave_handler_obj.enemy_waves ) - 1 ) cur_wave += 1
 	// cur_enemy_count = 0
 	
 	cur_squad = 0

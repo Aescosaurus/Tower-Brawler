@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "enemy_spr",
-    "path": "sprites/enemy_spr/enemy_spr.yy",
+    "name": "enemy_bullet_spr",
+    "path": "sprites/enemy_bullet_spr/enemy_bullet_spr.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "enemy_base",
-    "path": "objects/enemy_base/enemy_base.yy",
+    "name": "enemy_bullet_base",
+    "path": "objects/enemy_bullet_base/enemy_bullet_base.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,10 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "enemy_obj",
+  "name": "enemy_bullet_obj",
   "tags": [],
   "resourceType": "GMObject",
 }
