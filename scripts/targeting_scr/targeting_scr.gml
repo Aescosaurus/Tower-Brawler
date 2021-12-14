@@ -16,3 +16,20 @@ function target_closest( x_pos,y_pos )
 	
 	return( target_enemy )
 }
+
+function get_target( x_pos,y_pos,targeting_style,range )
+{
+	switch( targeting_style )
+	{
+		case targeting_type.targeting_closest:
+		{
+			var target = target_closest( x_pos,y_pos )
+			if( target != noone && get_len_sq( target.x - x_pos,target.y - y_pos ) < sqr( range ) )
+			{
+				return( target )
+			}
+			else return( noone )
+		}
+		break
+	}
+}

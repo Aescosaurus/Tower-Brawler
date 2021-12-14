@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "tower2_spr",
-    "path": "sprites/tower2_spr/tower2_spr.yy",
+    "name": "aoe_tower_spr",
+    "path": "sprites/aoe_tower_spr/aoe_tower_spr.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/towers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tower2_obj",
+  "name": "aoe_tower_obj",
   "tags": [],
   "resourceType": "GMObject",
 }

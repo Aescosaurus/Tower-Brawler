@@ -1,16 +1,21 @@
+function tower_get_stats( tower )
+{
+	return( tower_handler_obj.tower_stats[? tower] )
+}
+
 function tower_get_name( tower )
 {
-	return( tower_handler_obj.tower_stats[? tower].tower_name )
+	return( tower_get_stats( tower ).tower_name )
 }
 
 function tower_get_cost( tower )
 {
-	return( tower_handler_obj.tower_stats[? tower].cost )
+	return( tower_get_stats( tower ).cost )
 }
 
 function tower_get_range( tower )
 {
-	return( tower_handler_obj.tower_stats[? tower].range )
+	return( tower_get_stats( tower ).range )
 }
 
 function can_place_tower( tower_x,tower_y )

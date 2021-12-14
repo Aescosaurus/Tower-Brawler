@@ -7,6 +7,11 @@ enum tile_type
 	tile_tower = 4
 }
 
+enum targeting_type
+{
+	targeting_closest
+}
+
 #macro tile_spacing 8
 
 #macro panel_depth 10

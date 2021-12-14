@@ -1,10 +1,22 @@
 grid_width = 6
 grid_height = 3
 
-towers[0] = tower_obj
-towers[1] = tower2_obj
+var towers = array_create( ds_map_size( tower_handler_obj.tower_stats ) )
+var tower_count = array_length( towers )
 
-tower_count = array_length( towers )
+towers[0] = ds_map_find_first( tower_handler_obj.tower_stats )
+for( var i = 1; i < tower_count; ++i )
+{
+	towers[i] = ds_map_find_next( tower_handler_obj.tower_stats,towers[i - 1] )
+}
+
+array_sort( towers,function( a,b )
+{
+	return( tower_get_cost( a ) - tower_get_cost( b ) )
+} )
+
+// towers[0] = tower_obj
+// towers[1] = tower2_obj
 
 var i = 0
 for( var ly = 0; ly < grid_height; ++ly )
