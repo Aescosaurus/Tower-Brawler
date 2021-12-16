@@ -8,6 +8,7 @@ can_fire = false
 alarm_set( 0,refire )
 
 hovering = false
+can_open_panel = false
 
 total_kills = 0
 total_dmg = 0
