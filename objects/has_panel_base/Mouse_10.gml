@@ -1,1 +1,1 @@
-panel = create_info_panel( object_index )
+panel = info_panel_create( object_index )

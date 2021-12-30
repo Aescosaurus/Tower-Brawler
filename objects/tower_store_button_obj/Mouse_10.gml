@@ -1,3 +1,3 @@
 event_inherited()
 
-panel = create_info_panel( spawn_tower )
+panel = info_panel_create( spawn_tower )

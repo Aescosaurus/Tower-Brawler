@@ -1,6 +1,9 @@
 if( hovering )
 {
-	panel = create_info_panel_raw( create_arr( "kills:",string( total_kills ),"\n","total dmg:",string( total_dmg ) ),false )
+	if( panel == noone )
+	{
+		panel = info_panel_create_raw( create_arr( "kills:",string( total_kills ),"\n","total dmg:",string( total_dmg ) ),false )
+	}
 }
 else
 {

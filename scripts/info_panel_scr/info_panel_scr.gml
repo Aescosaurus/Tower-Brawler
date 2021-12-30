@@ -1,9 +1,9 @@
-function create_info_panel( obj,follow_mouse = true )
+function info_panel_create( obj,follow_mouse = true )
 {
-	return( create_info_panel_raw( panel_handler_obj.panels[? obj],follow_mouse ) )
+	return( info_panel_create_raw( panel_handler_obj.panels[? obj],follow_mouse ) )
 }
 
-function create_info_panel_raw( arr,follow_mouse = true )
+function info_panel_create_raw( arr,follow_mouse = true )
 {
 	var panel = instance_create_layer( mouse_x,mouse_y,"ui",info_panel_obj )
 	
@@ -17,7 +17,7 @@ function create_info_panel_raw( arr,follow_mouse = true )
 	return( panel )
 }
 
-function create_tower_panel( tower,desc )
+function info_panel_create_tower( tower,desc )
 {
 	return( create_arr(
 		panel_spr_insert( object_get_sprite( tower ) ),tower_get_name( tower ),"\n",

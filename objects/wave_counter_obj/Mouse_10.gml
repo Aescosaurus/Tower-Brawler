@@ -1,1 +1,1 @@
-panel = create_info_panel( wave_counter_obj )
+panel = info_panel_create( wave_counter_obj )
