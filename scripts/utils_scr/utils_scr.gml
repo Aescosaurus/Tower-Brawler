@@ -30,3 +30,9 @@ function assert( condition,msg = "" )
 {
 	if( !condition ) show_error( msg,true )
 }
+
+function is_on_screen( loc_x,loc_y )
+{
+	return( loc_x >= 0 && loc_x < room_width &&
+		loc_y >= 0 && loc_y < room_height )
+}
