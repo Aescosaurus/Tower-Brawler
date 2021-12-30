@@ -22,11 +22,29 @@ if( set_data )
 		}
 		else if( cur_data_type == "number" )
 		{
-			var x_offset = sprite_get_xoffset( cur_data )
-			var y_offset = sprite_get_yoffset( cur_data )
-			draw_sprite( cur_data,0,x + x_offset + cur_x,
-				y + y_offset + cur_y )
-			cur_x += sprite_get_width( cur_data )
+			// var x_offset = sprite_get_xoffset( cur_data )
+			// var y_offset = sprite_get_yoffset( cur_data )
+			// draw_sprite( cur_data,0,x + x_offset + cur_x,
+			// 	y + y_offset + cur_y )
+			// cur_x += sprite_get_width( cur_data )
+			show_error( "stop using numbers for sprites",true )
+		}
+		else if( cur_data_type == "struct" )
+		{
+			switch( cur_data.stored_type )
+			{
+			case "s":
+				var x_offset = sprite_get_xoffset( cur_data.stored_data )
+				var y_offset = sprite_get_yoffset( cur_data.stored_data )
+				draw_sprite( cur_data.stored_data,0,x + x_offset + cur_x,
+					y + y_offset + cur_y )
+				cur_x += sprite_get_width( cur_data.stored_data )
+				// x_add += sprite_get_width( cur_data.stored_data )
+				break;
+			// case "o":
+			// 	x_add += sprite_get_width( object_get_sprite( cur_data.stored_data ) )
+			// 	break;
+			}
 		}
 	}
 }

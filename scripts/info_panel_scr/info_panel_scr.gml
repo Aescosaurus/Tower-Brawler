@@ -20,7 +20,25 @@ function create_info_panel_raw( arr,follow_mouse = true )
 function create_tower_panel( tower,desc )
 {
 	return( create_arr(
-		object_get_sprite( tower ),tower_get_name( tower ),"\n",
+		panel_spr_insert( object_get_sprite( tower ) ),tower_get_name( tower ),"\n",
 		desc,"\n",
-		"cost:",gold_counter_spr,string( tower_get_cost( tower ) ) ) )
+		"cost:",panel_spr_insert( gold_counter_spr ),string( tower_get_cost( tower ) ) ) )
+}
+
+function panel_spr_insert( spr )
+{
+	return(
+	{
+		stored_type: "s",
+		stored_data: spr
+	} )
+}
+
+function panel_obj_insert( obj )
+{
+	return(
+	{
+		stored_type: "o",
+		stored_data: obj
+	} )
 }
