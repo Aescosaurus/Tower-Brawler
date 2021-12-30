@@ -1,3 +1,6 @@
+cur_panel_depth = 0
+panel_depth_interval = 10
+
 panels = ds_map_create()
 
 panels[? tower_obj] = info_panel_create_tower( tower_obj,"this is a basic tower" )

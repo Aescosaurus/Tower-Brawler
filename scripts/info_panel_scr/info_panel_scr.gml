@@ -7,7 +7,7 @@ function info_panel_create_raw( arr,follow_mouse = true )
 {
 	var panel = instance_create_layer( mouse_x,mouse_y,"ui",info_panel_obj )
 	
-	panel.depth = panel_depth
+	// panel.depth = panel_depth
 	
 	panel.data = arr
 	panel.set_data = true

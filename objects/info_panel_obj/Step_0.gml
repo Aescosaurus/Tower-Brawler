@@ -10,6 +10,7 @@ if( follow_mouse || !init_mouse_loc )
 	{
 		var cur_data = data[i]
 		var cur_data_type = typeof( cur_data )
+		assert( cur_data_type != "number","Stop using numbers for sprites!" )
 		if( cur_data == "\n" )
 		{
 			if( x_add > max_x_add ) max_x_add = x_add
@@ -20,11 +21,10 @@ if( follow_mouse || !init_mouse_loc )
 		{
 			x_add += string_width( cur_data )
 		}
-		else if( cur_data_type == "number" )
-		{
-			// x_add += sprite_get_width( cur_data )
-			show_error( "stop using numbers for sprites",true )
-		}
+		// else if( cur_data_type == "number" )
+		// {
+		// 	// x_add += sprite_get_width( cur_data )
+		// }
 		else if( cur_data_type == "struct" )
 		{
 			switch( cur_data.stored_type )
@@ -33,16 +33,20 @@ if( follow_mouse || !init_mouse_loc )
 				x_add += sprite_get_width( cur_data.stored_data )
 				break;
 			case "o":
-				x_add += sprite_get_width( object_get_sprite( cur_data.stored_data ) )
 				if( !init_buttons )
 				{
 					buttons[n_buttons] = instance_create_layer( x_add,y_add,"ui",cur_data.stored_data )
 					
 					buttons[n_buttons].x_offset = x_add
 					buttons[n_buttons].y_offset = y_add
+					buttons[n_buttons].x += x_add
+					buttons[n_buttons].y += y_add
 					
 					n_buttons++
+					assert( n_buttons < panel_handler_obj.panel_depth_interval,
+						"Too many objs in panel, increase panel depth interval or reduce obj count!" )
 				}
+				x_add += sprite_get_width( object_get_sprite( cur_data.stored_data ) )
 				break;
 			}
 		}
@@ -81,6 +85,8 @@ if( follow_mouse || !init_mouse_loc )
 	{
 		buttons[i].x = x + buttons[i].x_offset
 		buttons[i].y = y + buttons[i].y_offset
+		
+		buttons[i].depth = depth - i - 1
 	}
 	
 	init_mouse_loc = true

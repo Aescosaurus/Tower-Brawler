@@ -10,3 +10,6 @@ n_buttons = 0
 
 center_x = false
 center_y = false
+
+depth = panel_handler_obj.cur_panel_depth
+panel_handler_obj.cur_panel_depth -= panel_handler_obj.panel_depth_interval

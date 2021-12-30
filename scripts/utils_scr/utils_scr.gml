@@ -25,3 +25,8 @@ function create_arr()
 	}
 	return( temp_arr )
 }
+
+function assert( condition,msg = "" )
+{
+	if( !condition ) show_error( msg,true )
+}

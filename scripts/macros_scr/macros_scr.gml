@@ -14,4 +14,4 @@ enum targeting_type
 
 #macro tile_spacing 8
 
-#macro panel_depth 10
+// #macro panel_depth 10

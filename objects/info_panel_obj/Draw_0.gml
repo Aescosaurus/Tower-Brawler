@@ -10,6 +10,7 @@ if( set_data )
 	{
 		var cur_data = data[i]
 		var cur_data_type = typeof( cur_data )
+		assert( cur_data_type != "number","Stop using numbers for sprites!" )
 		if( cur_data == "\n" )
 		{
 			cur_x = 0
@@ -20,15 +21,14 @@ if( set_data )
 			draw_text( x + cur_x,y + cur_y,cur_data )
 			cur_x += string_width( cur_data )
 		}
-		else if( cur_data_type == "number" )
-		{
-			// var x_offset = sprite_get_xoffset( cur_data )
-			// var y_offset = sprite_get_yoffset( cur_data )
-			// draw_sprite( cur_data,0,x + x_offset + cur_x,
-			// 	y + y_offset + cur_y )
-			// cur_x += sprite_get_width( cur_data )
-			show_error( "stop using numbers for sprites",true )
-		}
+		// else if( cur_data_type == "number" )
+		// {
+		// 	// var x_offset = sprite_get_xoffset( cur_data )
+		// 	// var y_offset = sprite_get_yoffset( cur_data )
+		// 	// draw_sprite( cur_data,0,x + x_offset + cur_x,
+		// 	// 	y + y_offset + cur_y )
+		// 	// cur_x += sprite_get_width( cur_data )
+		// }
 		else if( cur_data_type == "struct" )
 		{
 			switch( cur_data.stored_type )
