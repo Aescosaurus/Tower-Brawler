@@ -35,18 +35,20 @@ if( follow_mouse || !init_mouse_loc )
 			case "o":
 				if( !init_buttons )
 				{
-					buttons[n_buttons] = instance_create_layer( x_add,y_add,"ui",cur_data.stored_data )
+					// buttons[n_buttons] = instance_create_layer( x_add,y_add,"ui",cur_data.stored_data )
+					buttons[n_buttons] = cur_data.stored_data
 					
 					buttons[n_buttons].x_offset = x_add
 					buttons[n_buttons].y_offset = y_add
-					buttons[n_buttons].x += x_add
-					buttons[n_buttons].y += y_add
+					buttons[n_buttons].x = x_add * 2
+					buttons[n_buttons].y = y_add * 2
 					
 					n_buttons++
 					assert( n_buttons < panel_handler_obj.panel_depth_interval,
 						"Too many objs in panel, increase panel depth interval or reduce obj count!" )
 				}
-				x_add += sprite_get_width( object_get_sprite( cur_data.stored_data ) )
+				// x_add += sprite_get_width( object_get_sprite( cur_data.stored_data ) )
+				x_add += cur_data.stored_data.sprite_width
 				break;
 			}
 		}

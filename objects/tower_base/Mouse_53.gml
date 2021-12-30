@@ -4,7 +4,9 @@ if( hovering )
 	{
 		panel = info_panel_create_raw(
 			create_arr(
-			panel_obj_insert( target_button_closest_obj ),"\n",
+			format_tower_target_button( button_target_closest_obj,self ),
+			format_tower_target_button( button_target_lowesthp_obj,self ),
+			"\n",
 			"kills:",string( total_kills ),"\n",
 			"total dmg:",string( total_dmg ) ),false )
 		panel.x = x
@@ -14,7 +16,7 @@ if( hovering )
 }
 else
 {
-	if( panel != noone )
+	if( panel != noone && !panel.hovering )
 	{
 		instance_destroy( panel )
 		panel = noone

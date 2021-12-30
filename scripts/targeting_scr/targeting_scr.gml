@@ -32,4 +32,6 @@ function get_target( x_pos,y_pos,targeting_style,range )
 		}
 		break
 	}
+	
+	return( noone )
 }

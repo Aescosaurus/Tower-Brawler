@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"76a01274-7b7e-4aea-8d7a-b805c1a72105","path":"sprites/target_lowest_hp_button_spr/target_lowest_hp_button_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"76a01274-7b7e-4aea-8d7a-b805c1a72105","path":"sprites/target_lowest_hp_button_spr/target_lowest_hp_button_spr.yy",},"LayerId":{"name":"560a3b7e-6371-4a67-b573-b102c52c11ca","path":"sprites/target_lowest_hp_button_spr/target_lowest_hp_button_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"target_lowest_hp_button_spr","path":"sprites/target_lowest_hp_button_spr/target_lowest_hp_button_spr.yy",},"resourceVersion":"1.0","name":"76a01274-7b7e-4aea-8d7a-b805c1a72105","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"76a01274-7b7e-4aea-8d7a-b805c1a72105","path":"sprites/target_lowesthp_button_spr/target_lowesthp_button_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"76a01274-7b7e-4aea-8d7a-b805c1a72105","path":"sprites/target_lowesthp_button_spr/target_lowesthp_button_spr.yy",},"LayerId":{"name":"560a3b7e-6371-4a67-b573-b102c52c11ca","path":"sprites/target_lowesthp_button_spr/target_lowesthp_button_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"target_lowesthp_button_spr","path":"sprites/target_lowesthp_button_spr/target_lowesthp_button_spr.yy",},"resourceVersion":"1.0","name":"76a01274-7b7e-4aea-8d7a-b805c1a72105","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"target_lowest_hp_button_spr","path":"sprites/target_lowest_hp_button_spr/target_lowest_hp_button_spr.yy",},
+    "spriteId": {"name":"target_lowesthp_button_spr","path":"sprites/target_lowesthp_button_spr/target_lowesthp_button_spr.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a813601e-7960-46ab-a870-764b34eecb8e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76a01274-7b7e-4aea-8d7a-b805c1a72105","path":"sprites/target_lowest_hp_button_spr/target_lowest_hp_button_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a813601e-7960-46ab-a870-764b34eecb8e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76a01274-7b7e-4aea-8d7a-b805c1a72105","path":"sprites/target_lowesthp_button_spr/target_lowesthp_button_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"target_lowest_hp_button_spr","path":"sprites/target_lowest_hp_button_spr/target_lowest_hp_button_spr.yy",},
+    "parent": {"name":"target_lowesthp_button_spr","path":"sprites/target_lowesthp_button_spr/target_lowesthp_button_spr.yy",},
     "resourceVersion": "1.3",
-    "name": "target_lowest_hp_button_spr",
+    "name": "target_lowesthp_button_spr",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "target_lowest_hp_button_spr",
+  "name": "target_lowesthp_button_spr",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -42,3 +42,12 @@ function panel_obj_insert( obj )
 		stored_data: obj
 	} )
 }
+
+function format_tower_target_button( obj,parent )
+{
+	var button = instance_create_layer( 9999,9999,"ui",obj )
+	
+	button.parent_tower = parent
+	
+	return( panel_obj_insert( button ) )
+}

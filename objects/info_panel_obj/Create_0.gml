@@ -13,3 +13,5 @@ center_y = false
 
 depth = panel_handler_obj.cur_panel_depth
 panel_handler_obj.cur_panel_depth -= panel_handler_obj.panel_depth_interval
+
+hovering = false

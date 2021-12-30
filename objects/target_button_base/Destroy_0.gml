@@ -1,0 +1,1 @@
+if( panel != noone ) instance_destroy( panel )

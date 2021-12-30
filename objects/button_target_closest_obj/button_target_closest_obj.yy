@@ -33,7 +33,7 @@
     "path": "folders/Objects/ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "target_button_closest_obj",
+  "name": "button_target_closest_obj",
   "tags": [],
   "resourceType": "GMObject",
 }

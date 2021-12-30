@@ -1,4 +1,5 @@
 // if selected draw highlighted * 2 or another color or smth
+if( parent_tower == noone || parent_tower.targeting != my_targeting ) shader_set_darken()
 event_inherited()
 shader_reset()
 

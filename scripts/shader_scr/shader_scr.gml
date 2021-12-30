@@ -24,3 +24,8 @@ function shader_set_red()
 {
 	shader_set_fade( 0.7,0.2,0.2,1.0 )
 }
+
+function shader_set_darken()
+{
+	shader_set_fade( 0.8,0.7,0.6,1.0 )
+}
