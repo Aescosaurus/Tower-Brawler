@@ -54,12 +54,13 @@
     {"id":{"name":"enemy_brute_spr","path":"sprites/enemy_brute_spr/enemy_brute_spr.yy",},"order":1,},
     {"id":{"name":"enemy_spawner_obj","path":"objects/enemy_spawner_obj/enemy_spawner_obj.yy",},"order":0,},
     {"id":{"name":"panel_handler_obj","path":"objects/panel_handler_obj/panel_handler_obj.yy",},"order":2,},
-    {"id":{"name":"setup1_room","path":"rooms/setup1_room/setup1_room.yy",},"order":0,},
+    {"id":{"name":"setup_room","path":"rooms/setup_room/setup_room.yy",},"order":0,},
     {"id":{"name":"shader_scr","path":"scripts/shader_scr/shader_scr.yy",},"order":9,},
     {"id":{"name":"tower_obj","path":"objects/tower_obj/tower_obj.yy",},"order":1,},
     {"id":{"name":"info_panel_obj","path":"objects/info_panel_obj/info_panel_obj.yy",},"order":8,},
     {"id":{"name":"start_button_obj","path":"objects/start_button_obj/start_button_obj.yy",},"order":9,},
     {"id":{"name":"color_fade_shader","path":"shaders/color_fade_shader/color_fade_shader.yy",},"order":2,},
+    {"id":{"name":"path_handler_obj","path":"objects/path_handler_obj/path_handler_obj.yy",},"order":6,},
     {"id":{"name":"wave_handler_obj","path":"objects/wave_handler_obj/wave_handler_obj.yy",},"order":4,},
     {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},"order":0,},
     {"id":{"name":"player_bullet_obj","path":"objects/player_bullet_obj/player_bullet_obj.yy",},"order":3,},
@@ -85,7 +86,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"setup1_room","path":"rooms/setup1_room/setup1_room.yy",},},
+    {"roomId":{"name":"setup_room","path":"rooms/setup_room/setup_room.yy",},},
     {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
   ],
   "Folders": [
