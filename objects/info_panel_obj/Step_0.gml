@@ -52,28 +52,35 @@ if( follow_mouse || !init_mouse_loc )
 	
 	if( x_add > max_x_add ) max_x_add = x_add
 	
-	x = mouse_x
-	y = mouse_y
-	if( x + max_x_add > room_width )
-	{
-		x = max( 0,mouse_x - max_x_add )
-	}
-	if( y + y_add + tile_spacing > room_height )
-	{
-		y = max( 0,mouse_y - y_add - tile_spacing )
-	}
-	
-	for( var i = 0; i < n_buttons; ++i )
-	{
-		buttons[i].x = x + buttons[i].x_offset
-		buttons[i].y = y + buttons[i].y_offset
-	}
-	
 	if( !set_scale )
 	{
 		image_xscale = max_x_add
 		image_yscale = y_add + tile_spacing
 		set_scale = true
+	}
+	
+	if( follow_mouse )
+	{
+		x = mouse_x
+		y = mouse_y
+	}
+	
+	if( center_x ) x -= floor( image_xscale / 2 )
+	if( center_y ) y -= floor( image_yscale / 2 )
+	
+	// keep box on screen
+	var x_r_out = room_width - ( x + max_x_add )
+	if( x_r_out < 0 ) x += x_r_out
+	var y_r_out = room_height - ( y + y_add + tile_spacing )
+	if( y_r_out < 0 ) y += y_r_out
+	if( center_x && x < 0 ) x = 0
+	if( center_y && y < 0 ) y = 0
+	
+	// apply button offsets
+	for( var i = 0; i < n_buttons; ++i )
+	{
+		buttons[i].x = x + buttons[i].x_offset
+		buttons[i].y = y + buttons[i].y_offset
 	}
 	
 	init_mouse_loc = true
