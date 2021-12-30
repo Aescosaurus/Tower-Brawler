@@ -1,9 +1,9 @@
-function create_info_panel( obj )
+function create_info_panel( obj,follow_mouse = true )
 {
-	return( create_info_panel_raw( panel_handler_obj.panels[? obj] ) )
+	return( create_info_panel_raw( panel_handler_obj.panels[? obj],follow_mouse ) )
 }
 
-function create_info_panel_raw( arr )
+function create_info_panel_raw( arr,follow_mouse = true )
 {
 	var panel = instance_create_layer( mouse_x,mouse_y,"ui",info_panel_obj )
 	
@@ -11,6 +11,8 @@ function create_info_panel_raw( arr )
 	
 	panel.data = arr
 	panel.set_data = true
+	
+	panel.follow_mouse = follow_mouse
 	
 	return( panel )
 }
