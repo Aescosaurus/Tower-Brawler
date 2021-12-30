@@ -6,6 +6,7 @@ if( hovering )
 			create_arr(
 			format_tower_target_button( button_target_closest_obj,self ),
 			format_tower_target_button( button_target_lowesthp_obj,self ),
+			format_tower_target_button( button_target_highesthp_obj,self ),
 			"\n",
 			"kills:",string( total_kills ),"\n",
 			"total dmg:",string( total_dmg ) ),false )

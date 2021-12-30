@@ -10,7 +10,8 @@ enum tile_type
 enum targeting_type
 {
 	targeting_closest,
-	targeting_lowesthp
+	targeting_lowesthp,
+	targeting_highesthp
 }
 
 #macro tile_spacing 8
